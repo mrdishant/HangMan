@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/textViewdetails"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:textSize="24dp"
+        android:textColor="@color/colorPrimary"
+        android:text="Hi there,Please Enter Your Name" />
+
+    <EditText
+        android:id="@+id/editTextname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:layout_marginTop="10dp"
+        android:hint="What's your name?" />
+
+    <Button
+        android:id="@+id/buttonstart"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:textColor="@android:color/white"
+        android:layout_marginTop="10dp"
+        android:text="Start" />
+</LinearLayout>

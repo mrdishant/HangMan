@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:orientation="vertical"
+    tools:context="com.nearur.hangman.MainActivity">
+
+
+    <TextView
+        android:id="@+id/textViewchances"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textSize="24dp"
+        android:textColor="@color/colorAccent"
+        android:layout_marginTop="8dp"
+        />
+    <TextView
+        android:id="@+id/textViewstring"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textSize="24dp"
+        android:textColor="@color/colorPrimary"
+        android:textAlignment="center"
+         />
+
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/guessedletters"
+        android:layout_gravity="left"
+        android:textColor="@android:color/holo_red_light"
+        android:textSize="24dp"
+        />
+
+    <EditText
+        android:id="@+id/editTextstring"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Guess a Letter"
+        android:layout_marginTop="20dp"
+         />
+
+
+    <ImageButton
+        android:layout_marginTop="10dp"
+        android:id="@+id/playagain"
+        android:background="@null"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:src="@drawable/playagain"
+        />
+
+
+</LinearLayout>
